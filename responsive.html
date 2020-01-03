@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.example {
+				color:blue;
+			 	font-family:"Handwriting-Dakota","Lucida Calligraphy Italic", Papyrus;
+			}
+
+	/*	
+	@media all and (min-width:480px) and (max-width:800px){  
+	.example{ color:red;
+
+	  }
+
+	}
+	@media screen and (min-width:801px){
+		.example{
+			  color:green;
+		}
+	}*/
+
+	@media ( min-width: 400px ){
+	#main{
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+	aside{
+		-webkit-column-break-before:always;
+		break-before:always;
+	}
+}
+	</style>
+	<title>Two Breakpoints</title>
+</head>
+<body>
+	<p class= example>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<header>
+		<h1>The Dunbar Project</h1>
+		<h2>In the Shadow of Downtown Tucson</h2>
+		<nav id="sitenav">
+			<ol>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about/">About the Dunbar Project</a></li>
+				<li><a href="gallery/">Photo Galleries</a></li>
+				<li><a href="donate/">Donate</a></li>
+				<li><a href="contact/">Contact</a></li>	
+			</ol>
+		</nav>
+
+	</header>
+
+	<div id="main">
+		<article id="content">
+			<h3>Welcome to The Dunbar Project Website</h3>
+
+			<!-- <img src="dunbar_image.jpg" alt="[Dunbar School]"> -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip<a href="poet.html"> Paul Laurence Dunbar</a>.ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+
+			<!-- more content ommitted -->
+
+			<aside id="sidebar">
+				<h3>Dunbar Project</h3>
+				<ol>
+					<li><a href="plan/">The Dunbar Site Plan</a></li>
+					<li><a href="auditorium/">Dunbar Auditorium</a></li>
+					<li><a href="history/">School History</a></li>
+					<li><a href="proposal/">Project Proposal</a></li>
+					<li><a href="donors/">Dunbar Donars</a></li>
+					<li><a href="poet.html">About Paul Laurence Dunbar, Poet</a></li>
+					<li><a href="links/">Relate Links</a></li>
+				</ol>
+				<h3>Coalition Members</h3>
+				<ol>
+					<li>The Tuscan Urban League</li>
+					<li>The Dunbar Alumni Association</li>
+					<li>The Juneteenth Festival Committee</li>
+				</ol>
+
+				<h3>Indivdual Members</h3>
+				<ol>
+					<!-- list of donors emitted -->
+				</ol>
+
+			
+			</aside> <!--sidebar-->
+
+ 		<footer>
+ 		
+ 		<p id="note501c3">The Dunbar Project is a special organization, and your contributions are tax deductible</p>
+
+ 		<p id="copyright"> Copyright & copy; 2006 by the Dunbar Project. Questions? <a href="mailto:webmaster@thedunbarproject.com">Mail the Webmaster.</a></p>
+ 		
+ 		</footer> <!--footer-->
+</div> <!--main-->
+
+
+</body>
+</html>
